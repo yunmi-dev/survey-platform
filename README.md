@@ -57,9 +57,15 @@
 #### 요구사항
 
 - JDK 17
+<<<<<<< HEAD
 
 - Docker Desktop
 
+=======
+  
+- Docker Desktop
+  
+>>>>>>> 02ef0908b7b3f592ac98eaa869ad94ef50c64a96
 - MySQL 8.0
 
 #### 실행 방법
@@ -116,4 +122,8 @@ src/
 - [ ] CI/CD 구축
 
 ## 라이센스
+<<<<<<< HEAD
 MIT © Yunmi Jeong
+=======
+MIT © Yunmi Jeong
+>>>>>>> 02ef0908b7b3f592ac98eaa869ad94ef50c64a96
