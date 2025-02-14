@@ -122,8 +122,4 @@ src/
 - [ ] CI/CD 구축
 
 ## 라이센스
-<<<<<<< HEAD
 MIT © Yunmi Jeong
-=======
-MIT © Yunmi Jeong
->>>>>>> 02ef0908b7b3f592ac98eaa869ad94ef50c64a96
