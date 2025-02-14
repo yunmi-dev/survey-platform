@@ -3,7 +3,7 @@
 > Spring Boot와 AWS를 활용한 설문조사 플랫폼
 
 [![Java](https://img.shields.io/badge/Java-17-007396?logo=java)](https://adoptium.net/)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.x-6DB33F?logo=springboot)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4.2-6DB33F?logo=springboot)](https://spring.io/projects/spring-boot)
 [![JPA](https://img.shields.io/badge/JPA-3.2.x-6DB33F?logo=hibernate)](https://spring.io/projects/spring-data-jpa)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Redis](https://img.shields.io/badge/Redis-7.0-DC382D?logo=redis&logoColor=white)](https://redis.io/)
@@ -39,7 +39,7 @@
 ### 기술 스택
 
 #### Backend
-- **Language & Framework**: Java 17, Spring Boot 3.2.x
+- **Language & Framework**: Java 17, Spring Boot 3.4.x
 - **ORM**: Spring Data JPA, QueryDSL
 - **Security**: Spring Security, JWT
 - **DB**: MySQL 8.0, Redis (캐싱)
