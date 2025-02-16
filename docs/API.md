@@ -20,19 +20,31 @@ X-API-VERSION: 1.0  // API 버전 명시
 ```
 
 ### 응답 형식
+
 #### 성공 응답
+- success: 요청 성공 여부 (true)
+- data: 실제 응답 데이터가 포함되는 객체
+- timestamp: 응답 생성 시각 (ISO-8601 형식)
+- traceId: 요청 추적을 위한 고유 식별자
+
 ```json
 {
     "success": true,
     "data": {
-        // 실제 응답 데이터
     },
     "timestamp": "2024-02-14T12:00:00",
-    "traceId": "ab12-cd34-ef56"  // 추적을 위한 고유 식별자
+    "traceId": "ab12-cd34-ef56"
 }
 ```
 
 #### 에러 응답
+- success: 요청 실패 여부 (false)
+- error: 에러 정보를 포함하는 객체
+    - code: 에러 코드
+    - message: 에러 메시지
+    - timestamp: 에러 발생 시각 (ISO-8601 형식)
+    - traceId: 요청 추적을 위한 고유 식별자
+
 ```json
 {
     "success": false,
